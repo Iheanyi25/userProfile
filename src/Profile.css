@@ -1,0 +1,304 @@
+.contact-nav {
+    margin-top: 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contact-nav img {
+    margin-left: 25%;
+}
+.contact-nav a {
+    margin-left: 75%;
+    font-family: 'Rubik', sans-serif; 
+}
+.name > h1 {
+    font-size: 100px;
+    color: black;
+    margin-left: 12.5%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+.description {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.description p {
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+}
+.desc-writing>p {
+    margin-bottom: 70px;
+}
+.description button {
+    width: 25%;
+    height: 168.38px;
+    padding-top: 5px;
+    background: #1B25FB;
+    margin-top: 250px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+}
+.desc-writing {
+    width: 75%;
+}
+.other-skills {
+    display: grid;
+    grid-template-columns: 5% 30%;
+    margin-bottom: 30px
+}
+.other-skills-dot {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    background: #1B25FB;
+}
+.other-skills > p{
+    margin-top: 0px;
+    font-weight: bold;
+}
+.other-skills-list {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 8%;
+}
+
+
+.pictures {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.first-image {
+    width: 50%;
+    height: 336.75px;
+    margin: auto;
+    background-image: url(Kene1.png);
+    background-size: 100%;
+}
+.first-image-below {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    height: 168.38px;
+}
+.ball {
+    background: #EA4C89;
+    text-align: center;
+    padding-top: 60px;
+}
+.tweet {
+    background: #1DA1F3;
+    text-align: center;
+    padding-top: 60px;
+}
+.second-image-above {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 168.38px;
+}
+.grey {
+    background: rgba(196, 196, 196, 0.3);
+    height: 168.38px;
+}
+.at {
+    background: #D44638;
+    text-align: center;
+    padding-top: 60px;
+}
+.second-image {
+    width: 50%;
+    margin: auto;
+    height: 336.75px;
+    background-image: url(Kene2.png);
+    background-size: 100%;
+}
+.pictures-two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.third-set {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    height: 336.75px;
+}
+.third-image {
+    background-image: url(Kene3.png);
+    background-size: 100%;
+}
+.linkedin {
+    background: #0077B5;
+    width: 25%;
+    height: 118.38px;
+    margin-left: 25%;
+    text-align: center;
+    padding-top: 50px;
+}
+.links-below {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.links-below button {
+    padding-top: 5px;
+    background: #1B25FB;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.developers {
+    width: 37.5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50%;
+}
+.developers p {
+    font-size: 22px;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.two-rows {
+    height: 673.5px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.works {
+    display: grid;
+    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+}
+.grey-big {
+    background: rgba(196, 196, 196, 0.3);
+}
+.genesys p {
+    font-size: 30px;
+    font-family: 'Rubik',
+    sans-serif;
+    font-weight: bold;
+    margin: 70px 0px 30px  0px;
+}
+.works-two {
+    display: grid;
+    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+}
+.contact-button button{
+    padding-top: 5px;
+    border: none;
+    cursor: pointer;
+    background: #1B25FB;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rubik',
+    sans-serif;
+    width: 100%;
+    height: 168.38px;
+    margin-top: 198.37px;
+}
+.lady {
+    background-image: url(Lady.png);
+    background-size: 100%;
+}
+.chota {
+    background-image: url(Chota.png);
+    background-size: 100%;
+}
+.ola {
+    background-image: url(Ola.png);
+    background-size: 100%;
+}
+.contact-header {
+    display: grid;
+    grid-template-columns: 3% 40%;
+    margin-left: 12.5%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.contact-header h1 {
+    font-size: 100px;
+    font-family: 'Rubik',
+    sans-serif;
+    margin: 0px;
+}
+.margin {
+    margin-top: 50px;
+}
+.name-input {
+    margin-left: 12.5%;
+    width: 25%;
+    height: 100px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Rubik',
+    sans-serif;
+    margin-bottom: 30px;
+}
+.message-input {
+    margin-left: 12.5%;
+    width: 25%;
+    height: 100px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.email-input {
+    margin-left: 12.5%;
+    width: 25%;
+    height: 100px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Rubik',
+    sans-serif;
+    margin-bottom: 30px;
+}
+.name-input::placeholder {
+    font-size: 30px;
+    color: #E5E5E5;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.message-input::placeholder {
+    font-size: 30px;
+    color: #E5E5E5;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.email-input::placeholder {
+    font-size: 30px;
+    color: #E5E5E5;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.button-input {
+    margin-left: 12.5%;
+    width: 25%;
+    height: 100px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-family: 'Rubik',
+    sans-serif;
+}
+.top-button {
+    padding-top: 5px;
+    border: none;
+    cursor: pointer;
+    background: #1B25FB;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rubik',
+    sans-serif;
+    width: 12.5%;
+    height: 138.38px;
+    margin-left: 87.5%;
+}

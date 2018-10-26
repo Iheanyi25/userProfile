@@ -230,7 +230,7 @@
 .margin {
     margin-top: 50px;
 }
-.name-input {
+/* .name-input {
     margin-left: 12.5%;
     width: 25%;
     height: 100px;
@@ -285,6 +285,17 @@
     background: black;
     color: white;
     font-size: 24px;
+    font-family: 'Rubik',
+    sans-serif;
+} */
+.contact-info {
+    margin-left: 12.5%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.contact-info * {
+    font-size: 30px;
+    font-weight: bold;
     font-family: 'Rubik',
     sans-serif;
 }

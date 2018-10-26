@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import './Profile.css';
-import { Link } from "react-router-dom";
 import logo from "./ArrowDown.png";
 import dots from "./logo.png";
 import up from "./LogoUp.png";
@@ -42,7 +41,7 @@ class Profile extends Component {
             <img src = {dots}/>
           </div>
           <div>
-            <Link to ="">CONTACT</Link>
+            <a href="mailto:keneohiaeri@gmail.com">CONTACT</a>
           </div>
         </div>
         <div className="name">
@@ -80,7 +79,7 @@ class Profile extends Component {
                 <img src = {dots}/>
               </div>
               <div>
-                <Link to ="">CONTACT</Link>
+                <a href="mailto:keneohiaeri@gmail.com">CONTACT</a>
               </div>
             </div>
             <div className="name">
@@ -110,9 +109,9 @@ class Profile extends Component {
               <div className="left-side">
                   <div className="first-image"></div>
                   <div className="first-image-below">
-                  <div className="ball"><img src={ball} /></div>
+                  <div className = "ball" > < a href = "http://dribbble.com/KeneOhiaeri"><img src={ball} /></a></div>
                     <div></div>
-                  <div className="tweet"><img src={tweet} /></div>
+                  <div className="tweet"><a href="http://twitter.com/KeneOhiaeri"><img src={tweet} /></a></div>
                   </div>
               </div>
               <div className="right-side">
@@ -153,7 +152,7 @@ class Profile extends Component {
                   <img src = {dots}/>
                 </div>
                 <div>
-                  <Link to ="">CONTACT</Link>
+                  <a href="mailto:keneohiaeri@gmail.com">CONTACT</a>
                 </div>
               </div>
               <div className="name">
@@ -183,9 +182,9 @@ class Profile extends Component {
                 <div className="left-side">
                     <div className="first-image"></div>
                     <div className="first-image-below">
-                    <div className="ball"><img src={ball} /></div>
+                      <div className = "ball" > < a href = "http://dribbble.com/KeneOhiaeri"><img src={ball} /></a></div>
                       <div></div>
-                    <div className="tweet"><img src={tweet} /></div>
+                      <div className="tweet"><a href="http://twitter.com/KeneOhiaeri"><img src={tweet} /></a></div>
                     </div>
                 </div>
                 <div className="right-side">
@@ -254,7 +253,7 @@ class Profile extends Component {
                 <img src = {dots}/>
               </div>
               <div>
-                <Link to ="">CONTACT</Link>
+                <a href="mailto:keneohiaeri@gmail.com">CONTACT</a>
               </div>
             </div>
             <div className="name">
@@ -284,9 +283,9 @@ class Profile extends Component {
               <div className="left-side">
                   <div className="first-image"></div>
                   <div className="first-image-below">
-                  <div className="ball"><img src={ball} /></div>
-                    <div></div>
-                  <div className="tweet"><img src={tweet} /></div>
+                    <div className = "ball" > < a href = "http://dribbble.com/KeneOhiaeri"><img src={ball} /></a></div>
+                      <div></div>
+                    <div className="tweet"><a href="http://twitter.com/KeneOhiaeri"><img src={tweet} /></a></div>
                   </div>
               </div>
               <div className="right-side">
@@ -351,14 +350,12 @@ class Profile extends Component {
                   <h1>Contact</h1>
                 </div>
               </div>
-              <form>
-                <input type="text" placeholder="Name" className="name-input"/>
-                <input type="textarea" placeholder="Message" className="message-input"/><br/>
-                <input type="email" placeholder="Email" className="email-input"/><br />
-                <button className="button-input" onClick={this.showContact}>Contact</button>
-              </form> 
+              <div className="contact-info">
+                <p>I'm always happy to talk. </p>
+                <a href="mailto:keneohiaeri@gmail.com">Say hello</a>
+              </div>
             </div>
-            <button className="top-button"><img src={up} /><p>Top</p></button>
+            <button className="top-button"><a href="contact-nav"><img src={up} /></a><p>Top</p></button>
           </div>
           );
         }

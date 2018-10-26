@@ -79,7 +79,6 @@
     height: 336.75px;
     margin: auto;
     background-image: url(Kene1.png);
-    background-size: 100%;
 }
 .first-image-below {
     display: grid;
@@ -115,7 +114,6 @@
     margin: auto;
     height: 336.75px;
     background-image: url(Kene2.png);
-    background-size: 100%;
 }
 .pictures-two {
     display: grid;
@@ -128,7 +126,6 @@
 }
 .third-image {
     background-image: url(Kene3.png);
-    background-size: 100%;
 }
 .linkedin {
     background: #0077B5;
@@ -205,6 +202,7 @@
 .lady {
     background-image: url(Lady.png);
     background-size: 100%;
+    
 }
 .chota {
     background-image: url(Chota.png);

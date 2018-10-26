@@ -131,7 +131,7 @@ class Profile extends Component {
                 <div className="grey"></div>
               </div>
               <div className="links">
-                <div className="linkedin"><img src={linkedin} /></div>
+                <div className="linkedin"><a href="https://www.linkedin.com/in/keneohiaeri/"><img src={linkedin} /></a></div>
                 <div className="links-below">
                   <button onClick={this.showWorks}> <p>Works</p><img src={logo} /></button>
                   <div></div>
@@ -204,7 +204,7 @@ class Profile extends Component {
                   <div className="grey"></div>
                 </div>
                 <div className="links">
-                  <div className="linkedin"><img src={linkedin} /></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/keneohiaeri/"><img src={linkedin} /></a></div>
                   <div className="links-below">
                     <button onClick={this.showWorks}> <p>Works</p><img src={logo} /></button>
                     <div></div>
@@ -305,7 +305,7 @@ class Profile extends Component {
                 <div className="grey"></div>
               </div>
               <div className="links">
-                <div className="linkedin"><img src={linkedin} /></div>
+                <div className="linkedin"><a href="https://www.linkedin.com/in/keneohiaeri/"><img src={linkedin} /></a></div>
                 <div className="links-below">
                   <button onClick={this.showWorks}> <p>Works</p><img src={logo} /></button>
                   <div></div>
